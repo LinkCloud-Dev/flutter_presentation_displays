@@ -26,6 +26,7 @@ apply plugin: "kotlin-android"
 
 android {
     compileSdk = 35
+    namespace = "com.namit.presentation_displays"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
